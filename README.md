@@ -11,7 +11,7 @@ Clone the repository to your hugo theme directory
 ```
 mkdir themes
 cd themes
-git clone https://github.com/LordMathis/hugo-theme-nix
+git clone https://github.com/jbfreels/hugo-theme-nix
 ```
 
 ## Configuration

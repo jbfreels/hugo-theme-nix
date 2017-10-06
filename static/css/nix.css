@@ -11,7 +11,7 @@ body {
 	height: 100%;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 1.5em;
-	padding-top: 70px;
+	padding-top: 20px;
 }
 
 #green-terminal {
@@ -35,8 +35,14 @@ h1,h2,h3,h4,h5,h6 {
 	font-family: 'Concert One', cursive;
 }
 
+.about {
+	text-align: center;
+	font-size: larger;
+}
+
 #user-name {
-	font-size: 5em;
+	font-size: 2em;
+	text-transform:capitalize;
 }
 
 .user-description {

@@ -16,6 +16,16 @@
 <!-- Custom CSS -->
 <link rel="stylesheet" href="{{ "css/nix.css" | absURL }}">
 
+{{ range .Site.Params.custom_css -}}
+<link rel="stylesheet" href="{{ . | absURL }}">
+{{- end }}
+
+<!-- Custom JS -->
+{{ range .Site.Params.custom_js -}}
+<script src="{{ . | absURL }}"></script>
+{{- end }}
+
+
 <!-- Google Fonts -->
 <link href="https://fonts.googleapis.com/css?family=Inconsolata|Open+Sans|Roboto|Montserrat|Concert+One" rel="stylesheet">
 
